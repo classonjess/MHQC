@@ -1,0 +1,137 @@
+html{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+#logo{
+    display: flex;
+    height: 13rem;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.nav{
+    display: flex;
+    font-family: "Montserrat";
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.nav a{
+    color: rgb(91, 89, 135);
+    text-decoration: none;  
+  }
+
+.head {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    word-spacing: 0.7rem;
+    color: rgb(91, 89, 135);
+    background-color: rgb(230, 228, 237);
+}
+
+#whit{
+    display:flex;
+    position: relative;
+    border-radius: 8%;
+    height: 21rem;
+    align-items: center;
+    float: left;
+    margin-left: 23rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.mission p{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    text-align: left;
+    line-height: 1.9rem;
+    margin-left: 42rem;
+    margin-right: 12rem;
+    padding-top: 5rem;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+
+#events{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(91, 89, 135);
+    text-align: center;
+    word-spacing: 0.7rem;
+}
+
+#events h2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    position: absolute;
+    align-content: center;
+    background-color: rgb(230, 228, 237);
+    background-size: contain;
+    width: 100%;
+    justify-content: center;
+}
+
+#insta{
+    display: flex;
+    height: 2rem;
+    position: absolute;
+    margin-left: 36rem;
+    margin-top: 5rem;
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    list-style-type: none;
+    margin-top: 11rem;
+}
+
+#photos img{
+    flex-basis: 350px;
+    height: 16rem;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(230, 228, 237);
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+  }
+  
+  footer .content {
+    font-family: "Montserrat";
+    color: black;
+    height: 0.75rem;
+    display: flex;
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+  
+  footer .copyright {
+    flex-grow: 1;
+  }
